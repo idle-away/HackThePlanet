@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ca2d6160e9880ad5",
+        "id": "0467612d7f228cef",
         "type": "tabs",
         "children": [
           {
-            "id": "0fb60a804f9c51cb",
+            "id": "367a2a94f4f34a40",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -17,6 +17,14 @@
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "ec41b6a7e5f0d39f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -147,8 +155,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0fb60a804f9c51cb",
+  "active": "754a5e891aa46d6f",
   "lastOpenFiles": [
-    "Welcome.md"
+    "Untitled.canvas",
+    "Welcome.md",
+    "Web",
+    "Windows",
+    "Linux",
+    "2024-07-26.md"
   ]
 }
