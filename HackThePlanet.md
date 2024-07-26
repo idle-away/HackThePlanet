@@ -9,9 +9,12 @@ wget -P ~/Downloads https://github.com/obsidianmd/obsidian-releases/releases/dow
 sudo dpkg -i ~/Downloads/obsidian_1.6.7_amd64.deb
 rm ~/Downloads/obsidian_1.6.7_amd64.deb
 ```
-
-
 ## Todo's
+
+Tasks 
+```tasks
+not done
+```
 
 - [ ] Templates entwerfen
 	- [ ] Exploit
