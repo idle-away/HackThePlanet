@@ -9,6 +9,25 @@ wget -P ~/Downloads https://github.com/obsidianmd/obsidian-releases/releases/dow
 sudo dpkg -i ~/Downloads/obsidian_1.6.7_amd64.deb
 rm ~/Downloads/obsidian_1.6.7_amd64.deb
 ```
+
+## Obsidian Hilfe
+
+[Offizielle Hilfe Seite](https://help.obsidian.md/Home)
+[Hilfe zu Tasks und Filtering](https://publish.obsidian.md/tasks/Introduction)
+
+**Shortcuts**
+
+| Combination | Command Palette     |
+| ----------- | ------------------- |
+| CTRL+P      | Commando Pallete    |
+| CTRL+O      | Find or create Node |
+
+## Standards
+
+**TAGS**
+ - Tags werden klein geschrieben (sind eh case insensitive)
+ - Tags werden mit `/` genested
+ 
 ## Aufgaben
 
 ### In Arbeit

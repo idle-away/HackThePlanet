@@ -13,7 +13,7 @@ Link zum [tool](github.com)
 ## TLDR Usage
 
 ## Cheatsheet
-#cheatsheet-toolname
+#cheatsheet/toolname
 
 ## Todo's
 - [x] Tool-Template erstellt
