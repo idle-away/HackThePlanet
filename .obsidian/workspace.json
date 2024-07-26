@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -148,14 +147,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "df20fe701a0ae56c",
+  "active": "367a2a94f4f34a40",
   "lastOpenFiles": [
     "Templates/Writeup.md",
+    "HackThePlanet.md",
     "Templates/Exploit.md",
     "Templates/Tool.md",
     "Tools/ffuf.md",
     "Templates",
-    "HackThePlanet.md",
     "Tools",
     "Untitled.canvas",
     "Web",
