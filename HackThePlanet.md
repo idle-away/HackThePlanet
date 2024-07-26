@@ -9,11 +9,21 @@ wget -P ~/Downloads https://github.com/obsidianmd/obsidian-releases/releases/dow
 sudo dpkg -i ~/Downloads/obsidian_1.6.7_amd64.deb
 rm ~/Downloads/obsidian_1.6.7_amd64.deb
 ```
-## Todo's
+## Aufgaben
 
-Tasks 
+### In Arbeit
+```tasks
+filter by function task.status.type === "IN_PROGRESS"
+```
+
+### Offene Aufgaben
 ```tasks
 not done
+```
+
+### Erledigte Aufgaben
+```tasks
+done
 ```
 
 - [ ] Templates entwerfen
