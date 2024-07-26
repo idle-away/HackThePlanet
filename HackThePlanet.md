@@ -15,11 +15,11 @@ rm ~/Downloads/obsidian_1.6.7_amd64.deb
 [Offizielle Hilfe Seite](https://help.obsidian.md/Home)
 [Hilfe zu Tasks und Filtering](https://publish.obsidian.md/tasks/Introduction)
 
-**Shortcuts**
+### Shortcuts
 
 | Combination | Command Palette     |
 | ----------- | ------------------- |
-| CTRL+P      | Commando Pallete    |
+| CTRL+P      | Commando Palette    |
 | CTRL+O      | Find or create Node |
 
 ## Standards
@@ -27,6 +27,17 @@ rm ~/Downloads/obsidian_1.6.7_amd64.deb
 **TAGS**
  - Tags werden klein geschrieben (sind eh case insensitive)
  - Tags werden mit `/` genested
+ 
+**Bilder und oder andere Dateien**
+- Werden im Unterordner `res` des momentanen Ordners abgelegt.
+
+**Tools**
+- Tools sollen zu Writeups verlinken in denen diese benutzt werden um als weitere Hilfe zur Tool Nutzung zu dienen.
+
+**Writeups**
+- Writeups sollen zu benutzten Tools sowie Exploits verlinken
+
+**Exploits**
  
 ## Aufgaben
 
@@ -38,6 +49,7 @@ filter by function task.status.type === "IN_PROGRESS"
 ### Offene Aufgaben
 ```tasks
 not done
+path does not include Templates
 ```
 
 ### Erledigte Aufgaben
@@ -45,10 +57,12 @@ not done
 done
 ```
 
-- [ ] Templates entwerfen
-	- [ ] Exploit
-	- [ ] Tool
-	- [ ] Writeup
-- [ ] Cheatsheets
-- [ ] Techniken und Verfahren
-- [ ] Systemsetup
+
+## Writeups
+
+### Pwnd
+
+```tasks
+done
+path includes Writeups
+```
