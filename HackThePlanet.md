@@ -5,8 +5,9 @@ Eine Knowledge Base rund um Pentesting und IT-Sicherheit
 Auf die Version aufpassen beim installieren (lol)
 
 ```
-wget -P ~./Downloads https://github.com/obsidianmd/obsidian-releases/releases/download/v1.6.7/obsidian_1.6.7_amd64.deb
-sudo dpkg -i ~./Downloads/obsidian_1.6.7_amd64.deb
+wget -P ~/Downloads https://github.com/obsidianmd/obsidian-releases/releases/download/v1.6.7/obsidian_1.6.7_amd64.deb
+sudo dpkg -i ~/Downloads/obsidian_1.6.7_amd64.deb
+rm ~/Downloads/obsidian_1.6.7_amd64.deb
 ```
 
 
