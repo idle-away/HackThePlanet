@@ -1,3 +1,4 @@
+
 #ffuf 
 
 Fuzz faster you fool ist ein fuzzing/webenumeration tool.
