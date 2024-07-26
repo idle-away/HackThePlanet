@@ -13,18 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "HackThePlanet.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "ec41b6a7e5f0d39f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -56,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag: ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "HackThePlanet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "HackThePlanet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "HackThePlanet.md"
               }
             }
           }
@@ -155,10 +148,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "754a5e891aa46d6f",
+  "active": "df20fe701a0ae56c",
   "lastOpenFiles": [
+    "Templates/Writeup.md",
+    "Templates/Exploit.md",
+    "Templates/Tool.md",
+    "Tools/ffuf.md",
+    "Templates",
+    "HackThePlanet.md",
+    "Tools",
     "Untitled.canvas",
-    "Welcome.md",
     "Web",
     "Windows",
     "Linux",
