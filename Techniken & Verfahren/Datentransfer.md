@@ -1,5 +1,5 @@
  
- #exfil
+ #exfil #transfer
  
 ---
 ## Windows
@@ -68,8 +68,8 @@ curl -X POST http://127.0.0.1:8000/upload -F 'files=@multiple-example-1.txt' -F 
 
 - [ ] Datentransfer
 - [x] SMB Share
-- [ ] WebDAV
-	- [ ] WebDAV: Zielsystem fehlt
+- [?] WebDAV
+	- [?] WebDAV: Zielsystem fehlt
 - [x] Python simple http.server ✅ 2024-07-26
-- [/] Python uploadserver
-	- [ ] Python uploadserver: Powershell Beispiel
+- [?] Python uploadserver
+	- [?] Python uploadserver: Powershell Beispiel
