@@ -133,3 +133,5 @@ Alternativ kann dies auch über [[MSF]] überprüft werden. Das entsprechende Mo
 - [x] Web Enum Dienste identifizieren ➕ 2024-07-27 ✅ 2024-07-27
 - [x] Web Enum Well Known Ports ➕ 2024-07-27 ✅ 2024-07-27
 - [x] Web Enum Webdienst Analyse ➕ 2024-07-27 ✅ 2024-07-27
+- [ ] Web Enum Quick Wins Tomcat Manager RCE ➕ 2024-07-27
+- [ ] Web Enum Client Side Applications ➕ 2024-07-27
