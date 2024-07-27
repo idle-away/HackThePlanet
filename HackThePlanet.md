@@ -26,7 +26,7 @@ rm ~/Downloads/obsidian_1.6.7_amd64.deb
 
 **TAGS**
  - Tags werden klein geschrieben (sind eh case insensitive)
- - Tags werden mit `/` genested
+ - Tags werden mit `/` nested
  
 **Bilder und oder andere Dateien**
 - Werden im Unterordner `res` des momentanen Ordners abgelegt.

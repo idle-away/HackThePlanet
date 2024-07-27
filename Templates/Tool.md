@@ -1,19 +1,24 @@
 #toolname 
+#tool/toolname
 
 Kurzbeschreibung
 
 -------
 ## Quelle
 
+
 Link zum [tool](github.com)
 
 ## Installation
+#toolname/install
+#tool/toolname/install
 
 ---------
 ## TLDR Usage
 
 ## Cheatsheet
+#toolname/cheatsheet
 #cheatsheet/toolname
 
 ## Todo's
-- [x] Tool-Template erstellt
+- [ ] Tool {{title}} erstellt ➕ 2024-07-27

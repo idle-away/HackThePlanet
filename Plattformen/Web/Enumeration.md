@@ -19,22 +19,24 @@ nmap -sCV --min-rate 1500 -v -p- 10 10.10.11.12 -oA nmap/script1k
 
 #well-known/ports
 
-| Port | Protokoll   | Dienst          |
-| ---- | ----------- | --------------- |
-| 21   | TCP/UDP     | FTP             |
-| 22   | TCP/UDP     | SSH             |
-| 23   | TCP         | Telnet          |
-| 25   | TCP         | SMTP            |
-| 53   | TCP/**UDP** | DNS             |
-| 80   | TCP/UDP     | HTTP            |
-| 88   | TCP/UDP     | Kerberos        |
-| 143  | TCP/UDP     | IMAP            |
-| 161  | TCP/UDP     | SNMP            |
-| 389  | TCP/UDP     | LDAP            |
-| 443  | TCP/UDP     | HTTPS           |
-| 445  | TCP         | SMB             |
-| 3306 | TCP/UDP     | MySQL DB System |
-| 3389 | TCP/UDP     | Windows RDP     |
+| Port | Protokoll   | Dienst            |
+| ---- | ----------- | ----------------- |
+| 21   | TCP/UDP     | FTP               |
+| 22   | TCP/UDP     | SSH               |
+| 23   | TCP         | Telnet            |
+| 25   | TCP         | SMTP              |
+| 53   | TCP/**UDP** | DNS               |
+| 80   | TCP/UDP     | HTTP              |
+| 88   | TCP/UDP     | Kerberos          |
+| 143  | TCP/UDP     | IMAP              |
+| 161  | TCP/UDP     | SNMP              |
+| 389  | TCP/UDP     | LDAP              |
+| 443  | TCP/UDP     | HTTPS             |
+| 445  | TCP         | SMB               |
+| 3306 | TCP/UDP     | MySQL DB System   |
+| 3389 | TCP/UDP     | Windows RDP       |
+| 8080 | TCP/UDP     | Alternative HTTP  |
+| 8443 | TCP/UDP     | Alternative HTTPS |
 
 ---
 ## Webdienst Analyse
@@ -135,3 +137,4 @@ Alternativ kann dies auch über [[MSF]] überprüft werden. Das entsprechende Mo
 - [x] Web Enum Webdienst Analyse ➕ 2024-07-27 ✅ 2024-07-27
 - [ ] Web Enum Quick Wins Tomcat Manager RCE ➕ 2024-07-27
 - [ ] Web Enum Client Side Applications ➕ 2024-07-27
+- [ ] Web Enum Nmap lInk und Nmap Tool Page ➕ 2024-07-27
