@@ -41,6 +41,22 @@ Kubescape
 ```
 kubescape scan framework AllControls --format-version=v1 --format json --output kubescape-AllControls.json
  ```
+### Microsocks
+
+Scan from inside the cluster
+
+curl -LO https://github.com/rofl0r/microsocks/archive/refs/tags/v1.0.4.zip 
+unzip v1.0.4.zip 
+cd microsocks* 
+CC=musl-gcc LDFLAGS+=" -static " make 
+ldd microsocks 
+not a dynamic executable
+
+./microsocks
+
+kubectl cp ...
+kubectl exec -it ... -- ./microsocks
+kubectl port-forward ... 1080:1080
 
 ---
 
