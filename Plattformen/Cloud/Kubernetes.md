@@ -1,4 +1,12 @@
 
+Vorausgesetzte Tools:
+- [[kubectl]]
+
+Optionale Tools:
+- [[Kubescape]]
+
+---
+
 ## Cluster Role Bindings und Role Binding
 
 ## RBAC
@@ -33,4 +41,11 @@ Kubescape
 ```
 kubescape scan framework AllControls --format-version=v1 --format json --output kubescape-AllControls.json
  ```
- 
+
+---
+
+## ToDo's
+
+- [ ] Informieren Lynis ➕ 2024-07-30
+- [ ] Tooling Kubescape ➕ 2024-07-30 
+- [ ] Informieren konstellation (RBAC) ➕ 2024-07-30 

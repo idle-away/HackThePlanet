@@ -7,7 +7,7 @@ Kommandozeilen Tool zur integration von Kunbernetes
 ## Quelle
 
 
-Link zum [tool](https://kubernetes.io/de/docs/tasks/tools/install-kubectl/)
+Link zum [Kubernetes IO](https://kubernetes.io/de/docs/tasks/tools/install-kubectl/)
 
 ## Installation
 #kubectl/install
