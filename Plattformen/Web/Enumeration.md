@@ -1,18 +1,4 @@
-#web/enum
-
----
-
-## Dienste identifizieren
-
-Schneller scan erreichbarer Dienste mit Versionserkennung:
-```bash
-nmap -sCV --min-rate 1500 -v 10 10.10.11.12 -oA nmap/script1k
-```
-
-Gleicher Scan über alle Ports:
-```bash
-nmap -sCV --min-rate 1500 -v -p- 10 10.10.11.12 -oA nmap/script1k
-```
+#web/enum 
 
 ---
 ## Well known Ports
@@ -39,6 +25,28 @@ nmap -sCV --min-rate 1500 -v -p- 10 10.10.11.12 -oA nmap/script1k
 | 8443 | TCP/UDP     | Alternative HTTPS |
 
 ---
+## Dienste identifizieren
+
+Schneller scan erreichbarer Dienste mit Versions Erkennung:
+```bash
+nmap -sCV --min-rate 1500 -v 10 10.10.11.12 -oA nmap/script1k
+```
+
+Gleicher Scan über alle Ports:
+```bash
+nmap -sCV --min-rate 1500 -v -p- 10 10.10.11.12 -oA nmap/script1k
+```
+
+### FTP
+
+| **Kommando**                                                             | **Beschreibung**                                |
+| ------------------------------------------------------------------------ | ----------------------------------------------- |
+| `ftp 192.168.2.142`                                                      | Verbindung zum FTP Server mit dem `ftp` Client. |
+| `nc -v 192.168.2.142 21`                                                 | Verbindung zum Ftp Server mit `netcat`.         |
+| `hydra -l user1 -P /usr/share/wordlists/rockyou.txt ftp://192.168.2.142` | FTP Server Zugang erraten mit `hydra`.          |
+
+---
+
 ## Webdienst Analyse
 
 Es ist hilfreich zu wissen mit welchen Technologien man konfrontiert wird. Um einen Einblick zu bekommen kann zum Beispiel das Firefox Browser Addon [wappalyzer](https://www.wappalyzer.com/) benutzt werden. Alternativ können per Kommandozeilen Tool `whatweb` ähnliche Informationen angezeigt werden.
