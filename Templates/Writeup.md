@@ -1,19 +1,19 @@
 #writeup/provider-box
 
 Erstellt am {{date}}
-Autor
+
 ## Box Info 
 
-| OS  | Typ | Schwierigkeit |
-| --- | --- | ------------- |
-|     |     |               |
+| Autor | Provider | OS  | Typ | Schwierigkeit |
+| --- | --- | --- | --- | ------------- |
+|  |  |  |  |  |
+
 ```
 name:   {{title}}
 adress: 
 ```
 
 ---
-
 ## Enumeration
 
 ## Foothold
@@ -21,9 +21,9 @@ adress:
 ## Privesc
 
 ---
-
 ## Todo's
 
-- [ ] {{title}} publish me ➕ 2024-07-27
-- [ ] {{title}} User Flag ➕ 2024-07-27
-- [ ] {{title}} Root Flag ➕ 2024-07-27
+- [ ] {{title}} publish me ➕ {{date}}
+- [ ] {{title}} pwnd ➕ {{date}}
+- [ ] {{title}} User Flag ➕ {{date}}
+- [ ] {{title}} Root Flag ➕ {{date}}

@@ -71,7 +71,7 @@ curl -X POST http://127.0.0.1:8000/upload -F 'files=@multiple-example-1.txt' -F 
 ## Todo
 
 - [ ] Datentransfer
-- [x] SMB Share
+- [x] SMB Share ✅ 2024-08-10
 - [?] WebDAV
 	- [?] WebDAV: Zielsystem fehlt
 - [x] Python simple http.server ✅ 2024-07-26

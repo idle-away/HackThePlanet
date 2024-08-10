@@ -76,7 +76,7 @@ cat ffuf/PORT-LISTE | jq -c '.results[] | {status: .status, url: .url}' | jq -s 
 
 ## Todos
 
-- [x] ffuf-tool page
-- [x] Installation
-- [x] Cheatsheets übertragen
-- [x] TLDR Usage
+- [x] ffuf-tool page ✅ 2024-08-10
+- [x] Installation ✅ 2024-08-10
+- [x] Cheatsheets übertragen ✅ 2024-08-10
+- [x] TLDR Usage ✅ 2024-08-10
