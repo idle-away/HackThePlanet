@@ -36,11 +36,12 @@ Mit Pull secrets ist es möglich von einem Imagerepository images zu laden. Das 
 
 ## Tools
 
-Kubescape 
+Kubescape
 
 ```
 kubescape scan framework AllControls --format-version=v1 --format json --output kubescape-AllControls.json
- ```
+```
+
 ### Microsocks
 
 Scan from inside the cluster
